@@ -1,3 +1,8 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 header {
   padding: 10px;
   display: flex;
@@ -24,6 +29,47 @@ header>button {
 
 header>button:hover {
   font-weight: 700;
+}
+
+.projectBoard {
+  padding: 1%;
+  width: min(700px, 100%);
+  align-self: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2%;
+}
+
+.project {
+  display: flex;
+  border: solid 0.5px black;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  overflow: scroll;
+  padding: 5% 5%;
+  gap: 10%;
+}
+
+.project:hover {
+  background-color: lightgray;
+}
+
+.project>* {
+  margin: 0px;
+}
+
+.project>img {
+  width: 64px;
+  height: auto;
+}
+
+.project>p {
+  text-align: center;
+}
+
+* {
+  font-family: 'Montserrat';
 }
 
 @font-face {

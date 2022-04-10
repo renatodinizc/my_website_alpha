@@ -22,6 +22,7 @@ const projects = () => {
 
   const projectBoard = document.createElement('main');
   document.getElementById('body').appendChild(projectBoard);
+  projectBoard.classList.add('projectBoard');
   
 
   for(let i = 0; i < projectTitles.length; i++) {
