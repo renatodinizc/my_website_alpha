@@ -1,0 +1,1 @@
+This is an aplha version of my future personal website. I'll be using vanilla js with webpacker.
