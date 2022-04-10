@@ -1,12 +1,6 @@
-import './mycss.css';
+import './style.css';
+import header from './header';
 
-console.log("I'm running baby!");
+header();
 
-const element = document.createElement('h1');
-const element2 = document.createElement('h2');
-
-element.innerText = 'Hello World!';
-element2.innerText = 'This is my blog alpha version';
-
-document.getElementById('content').appendChild(element);
-document.getElementById('content').appendChild(element2);
+console.log('hello woerld');
