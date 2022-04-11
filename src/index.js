@@ -5,3 +5,10 @@ import clear from './clear';
 
 header();
 projects();
+
+document.getElementById('homeButton').addEventListener('click', projectsPage);
+
+function projectsPage() {
+  clear();
+  projects();
+};

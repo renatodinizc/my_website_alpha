@@ -4,6 +4,7 @@ const header = () => {
 
   const homeBtn = document.createElement('button');
   homeBtn.innerText = 'Renato Diniz';
+  homeBtn.setAttribute('id','homeButton');
   const projectsBtn = document.createElement('button');
   projectsBtn.innerHTML = 'Projects';
   const essaysBtn = document.createElement('button');
