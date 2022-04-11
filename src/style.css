@@ -32,12 +32,13 @@ header>button:hover {
 }
 
 .projectBoard {
-  padding: 1%;
   width: min(700px, 100%);
   align-self: center;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2%;
+  margin: 1%;
+  margin-bottom: 2%;
 }
 
 .project {
@@ -66,6 +67,32 @@ header>button:hover {
 
 .project>p {
   text-align: center;
+}
+
+.essayBoard {
+  display: flex;
+  flex-direction: column;
+  width: min(700px, 100%);
+  align-self: center;
+  margin: 1%;
+  gap: 10px;
+}
+
+.essay {
+  border: solid 1px black;
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+  max-height: 250px;
+}
+
+.essay>* {
+  margin: 0.3%;
+}
+
+.essay>:nth-child(3) {
+  margin-top: 2.5%;
+  overflow: scroll;
 }
 
 * {

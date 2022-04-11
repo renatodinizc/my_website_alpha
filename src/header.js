@@ -9,6 +9,7 @@ const header = () => {
   projectsBtn.innerHTML = 'Projects';
   const essaysBtn = document.createElement('button');
   essaysBtn.innerText = 'Essays';
+  essaysBtn.setAttribute('id', 'essaysButton');
   const aboutMeBtn = document.createElement('button');
   aboutMeBtn.innerText = 'About Me';
 
