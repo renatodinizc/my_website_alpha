@@ -15,7 +15,6 @@ const header = () => {
   header.appendChild(projectsBtn);
   header.appendChild(essaysBtn);
   header.appendChild(aboutMeBtn);
-
-}
+};
 
 export default header;
