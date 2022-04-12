@@ -13,6 +13,7 @@ const header = () => {
   essaysBtn.setAttribute('id', 'essaysButton');
   const aboutMeBtn = document.createElement('button');
   aboutMeBtn.innerText = 'About Me';
+  aboutMeBtn.setAttribute('id', 'aboutMeButton');
 
   header.appendChild(homeBtn);
   header.appendChild(projectsBtn);
